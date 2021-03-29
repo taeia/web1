@@ -31,3 +31,28 @@ h1 {
         border-right: none;
     };
 }
+
+.grid-1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#day_night_button
+{
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    width: 100px;
+    margin-top: 10px;
+}
+.grid-2
+{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-2 div:hover
+{
+    background-color: mintcream;
+}
